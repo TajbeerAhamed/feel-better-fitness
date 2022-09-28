@@ -3,18 +3,35 @@
     top: 0;
     padding: 10px;
 }
+.list-name{
+    color: red;
+}
 .list-details{
     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: gainsboro;
+    border-radius: 20px;
 }
   
 .list-info{
-    padding: 20px;
-    margin: 20px;
-}
-.break-btn{
+   
     padding: 10px;
     margin: 10px;
 }
+.btn{
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.break-btn{
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
 .activity-btn{
     width: 100%;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(218, 19, 19, 0.788);
 }
