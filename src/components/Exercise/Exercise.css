@@ -8,5 +8,18 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
       gap: 45px;
+     margin: 30px 20px;
       
+}
+
+@media screen and (max-width:992px) {
+    .practice-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .practice-section{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
