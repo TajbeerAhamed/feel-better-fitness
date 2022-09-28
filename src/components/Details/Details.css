@@ -29,6 +29,11 @@
     margin: 10px;
     border-radius: 20px;
 }
+.break-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
 .activity-btn{
     width: 100%;
     color: white;

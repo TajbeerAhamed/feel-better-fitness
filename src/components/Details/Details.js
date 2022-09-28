@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Details.css'
 
 const Details = ({list}) => {
@@ -8,6 +8,10 @@ const Details = ({list}) => {
 console.log(lists)
  activityTime=activityTime+lists.activityTime
     }
+    // const [count,setCount] =useState([])
+    // const displayCount = () =>{
+    //     const newCount=
+    
     return (
         <div className='list'>
             <h2 className='list-name'>Tajbeer Ahamed Rimon{list.length}</h2>
@@ -27,7 +31,7 @@ console.log(lists)
             </div>
             <h2>Add a Break</h2>
             <div className='btn'>
-               <button className='break-btn'>10s</button>
+               <button  className='break-btn'>10s</button>
                <button className='break-btn'>20s</button>
                <button className='break-btn'>30s</button>
                <button className='break-btn'>40s</button>
