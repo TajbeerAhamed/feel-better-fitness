@@ -1,0 +1,44 @@
+[
+    {
+      "id":
+       "01",
+      "activityName": "TreadMills",
+      "activityTime": 120,
+      "img": "https://images.unsplash.com/photo-1652364653960-1c23c208ef43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGd5bXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id":
+         "02",
+        "activityName": "Athletic",
+        "activityTime": 180,
+        "img": "https://images.unsplash.com/photo-1661678730729-55e2856a8e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id":
+         "03",
+        "activityName": "Push",
+        "activityTime": 60,
+        "img": "https://images.unsplash.com/photo-1661678730278-4ad3f22e2b15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGd5bXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id":
+         "04",
+        "activityName": "Dumble",
+        "activityTime": 100,
+        "img": "https://images.unsplash.com/photo-1652364649008-99b647d0d1d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGd5bXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id":
+         "05",
+        "activityName": "Stretch",
+        "activityTime": 80,
+        "img": "https://images.unsplash.com/photo-1485727749690-d091e8284ef3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id":
+         "06",
+        "activityName": "Footwear",
+        "activityTime": 160,
+        "img": "https://images.unsplash.com/photo-1520877745935-616158eb7fcc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      }
+]          
