@@ -7,7 +7,12 @@ const Practice = (props) => {
 
     return (
         <div className='practice-section'>
-            <img src={img} alt="" />
+            <img src={img} alt=""></img>
+            <div>
+            <p className='activity-name'>Activity Name: {activityName}</p>
+            <p>Activity Time: {activityTime} s</p>
+            </div>
+<button className='btn-cart'>Add to List</button>
         </div>
     );
 };
