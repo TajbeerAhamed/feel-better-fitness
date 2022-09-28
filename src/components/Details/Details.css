@@ -1,0 +1,20 @@
+.list{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+.list-details{
+    display: flex;
+}
+  
+.list-info{
+    padding: 20px;
+    margin: 20px;
+}
+.break-btn{
+    padding: 10px;
+    margin: 10px;
+}
+.activity-btn{
+    width: 100%;
+}
