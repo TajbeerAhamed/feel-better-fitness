@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Details from '../Details/Details';
 import Practice from '../Practice/Practice';
 import './Exercise.css'
 
 const Exercise = () => {
     const [exercise,setExercise] = useState([])
-    // const []=useState([])
+    const [list,setList]=useState([])
     useEffect(() => {
         fetch('products.json')
         .then(res => res.json())
@@ -13,6 +14,8 @@ const Exercise = () => {
 
     const handleAddToList = (exercise) =>{
         console.log(exercise)
+      const newList=[...list,exercise]
+      setList(newList)
     }
     return (
         <div className='exercise-section'>
@@ -26,7 +29,7 @@ const Exercise = () => {
 }
           </div>
           <div className="details-section">
-<h2>Details</h2>
+<Details list={list}></Details>
           </div>
         </div>
     );
