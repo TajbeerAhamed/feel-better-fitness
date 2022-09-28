@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Practice from '../Practice/Practice';
 import './Exercise.css'
 
 const Exercise = () => {
@@ -11,7 +12,12 @@ const Exercise = () => {
     return (
         <div className='exercise-section'>
           <div className="practice-section">
-<h1>{exercise.length}</h1>
+{
+    exercise.map(exercises=><Practice
+     key={exercises.id}
+     exercises={exercises}
+     ></Practice>)
+}
           </div>
           <div className="details-section">
 <h2>Details</h2>
