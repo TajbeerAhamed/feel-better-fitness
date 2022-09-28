@@ -2,8 +2,9 @@ import React from 'react';
 import './Practice.css'
 
 const Practice = (props) => {
-    console.log(props)
+    // console.log(props)
     const {img,activityName,activityTime}=props.exercises
+    const {handleAddToList}=props
 
     return (
         <div className='practice-section'>
@@ -12,7 +13,9 @@ const Practice = (props) => {
             <p className='activity-name'>Activity Name: {activityName}</p>
             <p>Activity Time: {activityTime} s</p>
             </div>
-<button className='btn-cart'>Add to List</button>
+<button onClick={() =>handleAddToList(props)}  className='btn-cart'>
+    <p>Add to List</p>
+</button>
         </div>
     );
 };

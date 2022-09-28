@@ -4,11 +4,16 @@ import './Exercise.css'
 
 const Exercise = () => {
     const [exercise,setExercise] = useState([])
+    // const []=useState([])
     useEffect(() => {
         fetch('products.json')
         .then(res => res.json())
         .then(data => setExercise(data))
     },[])
+
+    const handleAddToList = (exercise) =>{
+        console.log(exercise)
+    }
     return (
         <div className='exercise-section'>
           <div className="practice-section">
@@ -16,6 +21,7 @@ const Exercise = () => {
     exercise.map(exercises=><Practice
      key={exercises.id}
      exercises={exercises}
+     handleAddToList={handleAddToList}
      ></Practice>)
 }
           </div>
