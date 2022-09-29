@@ -53,7 +53,7 @@ const Details = ({ list }) => {
       <h2>Activity Details</h2>
       <h4>Activity Time: {activityTime} seconds</h4>
       <h4>Break Time: {count} seconds</h4>
-      <button onClick={() => toast.success("Success")} className="activity-btn">
+      <button onClick={() => toast.success("Congrats you have done the activity")} className="activity-btn">
         Activity Completed
       </button>
     </div>
