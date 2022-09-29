@@ -16,6 +16,9 @@
     .practice-section{
         grid-template-columns: repeat(2,1fr);
     }
+    .exercise-section{
+        grid-template-columns: 4fr;
+    }
     
 }
 @media screen and (max-width:576px) {
