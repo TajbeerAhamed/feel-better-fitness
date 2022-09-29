@@ -1,24 +1,30 @@
 .practice-section{
      /* width: 500px; */
     /* height: 500px;  */
-    border: 1px solid rgb(230, 222, 222);
+    
     border-radius: 10px;
     padding: 5px;
     
 }
 .practice-card{
     position: relative;
+    border: 1px solid rgb(230, 222, 222);
 
 }
 
 .practice-section img{
-    height: 285px;
+     height: 285px;
     width: 285px;
     margin: 5px;
 }
 .activity-name{
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
+    margin-bottom: 0px;
+}
+.activity-time{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 .btn-cart{
     width: 100%;

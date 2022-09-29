@@ -11,7 +11,7 @@ const Practice = (props) => {
       <img src={img} alt=""></img>
       <div>
         <p className="activity-name">Activity Name: {activityName}</p>
-        <p>Activity Time: {activityTime} s</p>
+        <p className="activity-time">Activity Time: {activityTime} s</p>
       </div>
       <button onClick={() => handleAddToList(props)} className="btn-cart">
         Add to List

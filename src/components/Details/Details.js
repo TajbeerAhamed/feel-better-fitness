@@ -19,7 +19,7 @@ const Details = ({ list }) => {
 
   return (
     <div className="list">
-      <h2 className="list-name">Tajbeer Ahamed Rimon{list.length}</h2>
+      <h2 className="list-name">Tajbeer Ahamed Rimon</h2>
       <div className="list-details">
         <div className="list-info">
           <h3>69kg</h3>
