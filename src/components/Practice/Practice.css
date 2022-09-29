@@ -1,10 +1,7 @@
 .practice-section{
-     /* width: 500px; */
-    /* height: 500px;  */
-    
     border-radius: 10px;
-    padding: 5px;
-    
+    padding: 10px;
+    margin: 20px;
 }
 .practice-card{
     position: relative;
@@ -13,8 +10,8 @@
 }
 
 .practice-section img{
-     height: 285px;
-    width: 285px;
+     height: 400px;
+    width: 100%;
     margin: 5px;
 }
 .activity-name{
@@ -24,12 +21,17 @@
 }
 .activity-time{
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+}
+.activity-details{
+    margin-left: 20px;
 }
 .btn-cart{
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
+    padding: 10px;
     color: white;
+    margin-top: 10px;
     background-color: rgba(218, 19, 19, 0.788);
     position: absolute;
     bottom: 0;

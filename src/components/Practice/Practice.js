@@ -9,8 +9,8 @@ const Practice = (props) => {
   return (
     <div className="practice-card">
       <img src={img} alt=""></img>
-      <div>
-        <p className="activity-name">Activity Name: {activityName}</p>
+      <div className="activity-details">
+        <p className="activity-name"> Activity Name {activityName}</p>
         <p className="activity-time">Activity Time: {activityTime} s</p>
       </div>
       <button onClick={() => handleAddToList(props)} className="btn-cart">

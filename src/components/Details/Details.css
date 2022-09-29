@@ -5,6 +5,7 @@
 }
 .list-name{
     color: red;
+    text-align: center;
 }
 .list-details{
     display: flex;
